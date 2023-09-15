@@ -50,8 +50,9 @@ basicCN <- ggplot(mydata,aes(x=RACE,y=WORDSUM))
 basicCN + geom_boxplot()
 ```
 
+Simply looking at this plot doesn't allow us to narrow in to where the statistical difference is because all three of the boxes overlap at some point. Although we can assume that there is some variation in data, the question asks us where that occurs so we must run more tests to accurately and specifically answer. 
 
-
+There is not enough variation between OTHER and WHITE, BLACK and OTHER, or especially BLACK and WHITE because the boxes and medians (black lines) are overlapping or aligned. 
 
 
 ### Numerical Descriptive Results
