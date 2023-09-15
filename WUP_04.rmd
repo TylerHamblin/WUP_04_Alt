@@ -62,7 +62,7 @@ There is not enough variation between OTHER and WHITE, BLACK and OTHER, or espec
 favstats(WORDSUM~RACE,data=mydata)
 ```
 
-
+According to the numbers that printed out we can see that there is some distinction at the quartile marks especially in the "OTHER" category that seems to perform the lowest every time. With the lowest mean, maximum, and median we keep this in mind for the next test to see if this statistical suggestion holds true.
 
 
 
