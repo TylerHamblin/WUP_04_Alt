@@ -83,6 +83,11 @@ par(mar = c(3, 8.7, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
 
+p = 0.0182
+
+This p value suggests a significant result because of it being so minute but needs to be further investigated with a multiple comparisons test to decide whether or not your race has to do with your ability to perform on this test. 
+
+This final version of the plot shows us that at the value of zero there is no difference because White-Other + White-Black and White-Black + Black-Other  zero is within the confidence interval. White-Other and Black-Other appear to be the only two categories that don't overlap and therefore do have a noticeable distinction.
 
 # Discussion and Conclusion
 
