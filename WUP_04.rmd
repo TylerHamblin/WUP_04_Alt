@@ -77,6 +77,12 @@ summary.aov(model1)
 This one way anova test collects our p value for us, 0.0182, which confirms that we need to continue running more tests. 
 
 
+```{r}
+model1 <- aov(WORDSUM~RACE,data=mydata)
+par(mar = c(3, 8.7, 2, 2))
+plot(TukeyHSD(model1),las=2)
+```
+
 
 # Discussion and Conclusion
 
